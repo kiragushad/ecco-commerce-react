@@ -1,4 +1,3 @@
-
 import { Product, Category } from '@/types/product';
 
 // Categories
@@ -7,25 +6,25 @@ export const categories: Category[] = [
     id: 'electronics',
     name: 'Electronics',
     description: 'Latest gadgets and electronic devices',
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&h=400&q=80',
+    image: '/images/categories/electronics.png', // Local image path example
   },
   {
     id: 'clothing',
     name: 'Clothing',
     description: 'Stylish and comfortable clothing for all seasons',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=600&h=400&q=80',
+    image: '/images/categories/clothing.png', // Local image path example
   },
   {
     id: 'accessories',
     name: 'Accessories',
     description: 'Complete your look with our accessories',
-    image: 'https://images.unsplash.com/photo-1631733571640-dcced2d17c50?auto=format&fit=crop&w=600&h=400&q=80',
+    image: '/images/categories/accessories.png', // Local image path example
   },
   {
     id: 'home-decor',
     name: 'Home Decor',
     description: 'Beautiful items to decorate your home',
-    image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=600&h=400&q=80',
+    image: '/images/categories/home-decor.png', // Local image path example
   }
 ];
 
@@ -36,7 +35,7 @@ export const products: Product[] = [
     name: 'Premium Wireless Headphones',
     description: 'Experience crystal-clear sound with our premium wireless headphones. Featuring noise cancellation technology and long battery life.',
     price: 199.99,
-    image: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&h=600&q=80',
+    image: '/images/products/headphones.png', // Local image path example
     category: 'electronics',
     brand: 'SoundMaster',
     rating: 4.8,
